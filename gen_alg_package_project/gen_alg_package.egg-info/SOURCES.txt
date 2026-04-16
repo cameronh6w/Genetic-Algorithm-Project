@@ -1,0 +1,10 @@
+dev-requirements.txt
+pyproject.toml
+gen_alg_package/__init__.py
+gen_alg_package/__main__.py
+gen_alg_package.egg-info/PKG-INFO
+gen_alg_package.egg-info/SOURCES.txt
+gen_alg_package.egg-info/dependency_links.txt
+gen_alg_package.egg-info/requires.txt
+gen_alg_package.egg-info/top_level.txt
+tests/test_gen_alg_package.py
