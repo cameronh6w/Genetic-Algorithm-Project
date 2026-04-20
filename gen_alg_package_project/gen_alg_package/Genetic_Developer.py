@@ -8,7 +8,7 @@ class Genetic_Developer:
     def __init__(self):
         pass
     
-    
+
     def evaluate(self, population):
         pass
 
@@ -28,16 +28,16 @@ class Genetic_Developer:
         ##if not, continue
 
         #pass our current generation to our evaluator
-        evaluate(pop)
+        self.evaluate(pop)
 
         #print generation information, like stats and the number of what generation we're on
 
         #Pass our population to the Selection function, which will return a list () of all the schedules valid for reproducing
-        chosen_ones = select_parents(pop)
+        chosen_ones = self.select_parents(pop)
 
         #once we have all schedules valid for reproducing, DELETE ALL SCHEDULES NOT IN THE CHOSEN ONE LIST. WE CULL THE WEAK. DEATH WILL IMPROVE THE EMPIRE.
 
         #now that we only have our children, pass them to the reproduction function :)
-        new_generation = reproduce(pop)
+        new_generation = self.reproduce(pop)
 
         self.run_generation(new_generation, mutation_rate, (generation_number + 1))
