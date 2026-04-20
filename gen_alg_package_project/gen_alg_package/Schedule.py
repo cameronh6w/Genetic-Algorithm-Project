@@ -12,3 +12,10 @@ class  Schedule:
     
     def get_schedule(self): 
         return self.schedule
+    
+    def  print_data(self):
+        for key, value in self.schedule.items():
+            print(key,": ", end="")
+            for v in value:
+                 print(v.get_name(), end=" ")
+            print()

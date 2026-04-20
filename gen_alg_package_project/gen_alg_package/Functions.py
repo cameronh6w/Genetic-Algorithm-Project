@@ -88,5 +88,41 @@ def get_all_activities():
     return activities
 
 
+#PRE: takes in a  list of activitties that have all been assigned a time, facilitator,  and room
+#POST: returns the schedule in a dictionary form
+def create_dictionary(activities :  Activity):
+    keys = ["10am", "11am", "12pm", "1pm",  "2pm", "3pm"]
+
+    activites_at_10 =[]
+    activites_at_11 =[]
+    activites_at_12 =[]
+    activites_at_1 =[]
+    activites_at_2 =[]
+    activites_at_3 =[]
+    for a in activities:
+        
+        
+        if a.get_assigned_time()  == 10:
+            activites_at_10.append(a)
+        if a.get_assigned_time()  == 11:
+            activites_at_11.append(a)
+        if a.get_assigned_time()  == 12:
+            activites_at_12.append(a)
+        if a.get_assigned_time()  == 1:
+            activites_at_1.append(a)
+        if a.get_assigned_time()  == 2:
+            activites_at_2.append(a)
+        if a.get_assigned_time()  == 3:
+            activites_at_3.append(a)
+    
+    schedule = dict.fromkeys(keys, 0)
+    schedule["10am"] = activites_at_10
+    schedule["11am"] = activites_at_11
+    schedule["12pm"] = activites_at_12
+    schedule["1pm"] = activites_at_1
+    schedule["2pm"] = activites_at_2
+    schedule["3pm"] = activites_at_3
+
+    return schedule
 
 

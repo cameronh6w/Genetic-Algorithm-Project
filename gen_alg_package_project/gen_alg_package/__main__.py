@@ -1,9 +1,10 @@
 # TODO: Update the main function to your needs or remove it.
 import Functions
 import random
+import Schedule
 
 
-#I did the random assignment here in main, but I haven't made it into a scheudle object yet - cameron
+#I did the random assignment here in main, but this will probably change - cameron
 
 
 def main() -> None:    
@@ -14,6 +15,7 @@ def main() -> None:
     activites = Functions.get_all_activities()
     times = [10,11,12,1,2,3]
         
+    print("\nActivity Data: ")
     #assign facilitator, room, and time to each activity 
     for a in activites:
         #randomly selects an index from those lists
@@ -29,7 +31,19 @@ def main() -> None:
         #for testing
         a.print_assigned_data()
 
+    #create schedule from activities 
+    schedule_dict = Functions.create_dictionary(activites)
+    schedule = Schedule.Schedule(0,schedule_dict)
+    print("\nSchedule Data: ")
+    schedule.print_data()
+
+
+    
+
+
 
 
 if __name__ == "__main__":
     main()
+
+
