@@ -1,0 +1,12 @@
+Class Title,Expected Enrollment,Preferred facilitators,Other facilitators,Lab Required,Projector Required
+SLA101A,40,"Glen, Lock, Banks","Numen, Richards, Shaw, Singer",FALSE,FALSE
+SLA101B,35,"Glen, Lock, Banks","Numen, Richards, Shaw, Singer",FALSE,FALSE
+SLA191A,45,"Glen, Lock, Banks","Numen, Richards, Shaw, Singer",TRUE,FALSE
+SLA191B,40,"Glen, Lock, Banks","Numen, Richards, Shaw, Singer",TRUE,FALSE
+SLA201,60,"Glen, Banks, Zeldin, Lock, Singer","Richards, Uther, Shaw",FALSE,FALSE
+SLA291,50,"Glen, Banks, Zeldin, Lock, Singer","Richards, Uther, Shaw",TRUE,FALSE
+SLA303,25,"Glen, Zeldin",Banks,TRUE,TRUE
+SLA304,20,"Singer, Uther",Richards,TRUE,FALSE
+SLA394,15,"Tyler, Singer","Richards, Zeldin",FALSE,FALSE
+SLA449,30,"Tyler, Zeldin, Uther","Zeldin, Shaw",FALSE,TRUE
+SLA451,90,"Lock, Banks, Zeldin","Tyler, Singer, Shaw, Glen",TRUE,TRUE

@@ -61,3 +61,33 @@ class Activity:
 
     def assign_T(self, t : int):
         self.assigned_time = t
+
+
+    def print_data(self):
+        print(self.name, ": ", self.enrollment, "enrolled",  end="")
+
+        if(self.preferred !=  []):
+            print(", Prefers: ", end="")
+            for p in self.preferred:
+                print(p,end="")
+        
+        
+        if(self.other !=  []):
+            print(", Other: ", end="")
+            for a in self.other:
+                print(a, end="")
+        
+        if self.need_lab:
+            print(", needs lab", end="")
+
+        if self.need_projector:
+            print(", needs projector")
+        else:
+            print()
+
+
+    def print_assigned_data(self):
+        print(self.name, ": ", self.enrollment, "enrolled,", 
+              " in room ", self.assigned_room.get_name(), 
+              " with ", self.assigned_facilitator.get_name(), 
+              " at ", self.assigned_time)
