@@ -22,13 +22,3 @@ class Room:
     
     def get_has_projector(self): 
         return self.has_projector
-    
-    def print_data(self):
-        print(self.name,": ", self.capacity, " seats", end="")
-        if self.has_lab:
-            print(", has lab", end="")
-
-        if self.has_projector:
-            print(", has projector")
-        else:
-            print()

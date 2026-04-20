@@ -4,6 +4,8 @@ import Room
 import Facilitator
 import Activity
 
+#PRE: name must be the exact name of one of the csv files in data folder 
+#POST: returns a list where each element is a list of strings from one line of the csv
 def readCSV(name : str):
 
     csv_list = []
@@ -17,6 +19,7 @@ def readCSV(name : str):
 
     return csv_list
 
+#POST: returns a list of room objects with data read from the csv 
 def get_all_rooms():
     rooms_data = readCSV('Rooms')
     rooms = [] #list of Room objects
@@ -34,6 +37,7 @@ def get_all_rooms():
 
     return rooms
 
+#POST: returns a list of facilitator objects with data read from the csv 
 def get_all_facilitators():
     facilitator_data = readCSV('Facilitators')
     facilitators = [] #list of Room objects
@@ -55,6 +59,7 @@ def get_all_facilitators():
         
     return facilitators
 
+#POST: returns a list of activity objects with data read from the csv (room, facilitator, and time not yet assigned)
 def get_all_activities():
     activity_data = readCSV('Activities')
     activities = [] #list of Room objects
