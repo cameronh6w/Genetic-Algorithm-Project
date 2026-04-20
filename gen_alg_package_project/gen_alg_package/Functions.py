@@ -127,6 +127,9 @@ def create_dictionary(activities :  Activity):
 
     return schedule
 
+#POST: returns a schdeule object with random activities
+# **NOTE: we probably shouldn't call the csv reader calls in this function, 
+#  it can be done outside  of it and have these  first 4 variables  passed in  - cameron   
 def  create_random_Schedule():
     #get lists with all the objects 
     rooms = get_all_rooms()
