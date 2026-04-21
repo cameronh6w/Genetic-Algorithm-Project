@@ -1,6 +1,7 @@
 #this is where the fun begins; the actual genetic algorithm stuff
 
 import Generation
+import Schedule
 import numpy as np
 from scipy.special import softmax
 
@@ -50,8 +51,12 @@ class Genetic_Developer:
         return final_generation
 
     #So, rewrite! This is just the actual step of crossover. Take half of one schedule, marry it to half of the other schedule, and then return the child.
-    def crossover(self, parent_a, parent_b):
+    def crossover(self, parent_a: Schedule, parent_b: Schedule):
         
+        child_a = Schedule(-1, {
+            
+        })
+
         pass
 
     #Given our particular mutation rate, we take each schedule in the population and roll our chance to mutate. If mutate is true, take that particular schedule and...mutate it? TBA, TODO: will vary based on the implementation of how a schedule works 
