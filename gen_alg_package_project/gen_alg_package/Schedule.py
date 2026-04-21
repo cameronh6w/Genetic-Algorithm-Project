@@ -5,6 +5,7 @@
 #...and so on.
 
 #NOTE: This is the wild west. Both scores and the schedule dictionary itself have no error handling to enforce concrete values, so lowkey, anything can go. Beware of possible errors like checking for "10AM" instead of lowercase "10am", or accidentally adding extra times.
+#SECOND NOTE: We'll enforce -1 as the "empty" value; a schedule with a score of 0 genuinely does suck, but assume a score of -1 is one that hasn't been graded, yet.
 
 class Schedule:
     score : float
