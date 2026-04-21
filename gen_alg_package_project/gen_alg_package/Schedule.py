@@ -23,13 +23,13 @@ class Schedule:
         self.schedule = schedule
 
     #getters
-    def  get_score(self): 
+    def get_score(self): 
         return self.score
     
     def get_schedule(self): 
         return self.schedule
     
-    def  print_data(self):
+    def print_data(self):
         for key, value in self.schedule.items():
             print(key,": ", end="")
             for v in value:

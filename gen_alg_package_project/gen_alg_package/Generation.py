@@ -8,16 +8,15 @@ import Functions
 class Generation:
     def __init__(self, gen_size: int):
         
-        self.best_score = 0
-        self.worst_score = 0
-        self.avg_score = 0
+        self.best_score = -1.0
+        self.worst_score = -1.0
+        self.avg_score = -1.0
 
         self.population = []
 
         for i in range(0, gen_size):
-            #This is where we'll add the randomized schedule creation...TODO: IF WE HAD SOME! (not angry, this is a fairlyoddparents reference)
-            self.population.append(ScheduleGenerator.new()) #or some shit
 
-            #implementing  what I did would look something like this - cameron
+            #implementing  what I did would look something like this - cameron 
+            #yippee - tomie
             self.population.append(Functions.create_random_Schedule()) 
             
