@@ -12,23 +12,20 @@ class Generation:
         self.worst_score = -1.0
         self.avg_score = -1.0
 
+        self.gen_size = gen_size
+
         if population is not None:
             self.population = population
         else:
             self.population = []
-
-            for i in range(0, gen_size):
-
-                #implementing  what I did would look something like this - cameron 
-                #yippee - tomie
-                self.population.append(Functions.create_random_Schedule()) 
     
     def cull_least_half(self):
         #sort the population by fitness score (highest first)
         self.population.sort(key=lambda x: x.score, reverse=True)
 
         #remove the bottom half (the later half)
-        self.population = self.population[:len(self.population)//2]
+        #self.population = self.population[:len(self.population)//2]
+        self.population = self.population[:max(1, len(self.population) // 10)]
 
         print(f"The weak have been culled. Remaining population: {len(self.population)}")
     

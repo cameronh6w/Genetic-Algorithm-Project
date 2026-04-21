@@ -7,6 +7,7 @@ import numpy as np
 import random
 import sys
 from scipy.special import softmax
+import copy
 
 class Genetic_Developer:
     
@@ -34,10 +35,10 @@ class Genetic_Developer:
             first_generation.population.append(Functions.create_random_Schedule())
         
         print(f"Generation 1 size: {len(first_generation.population)}")
-        print("Starting generation information:")
-        print(f"Best Score: {first_generation.best_score}")
-        print(f"Average Score: {first_generation.avg_score}")
-        print(f"Worst Score: {first_generation.worst_score}")
+        #print("Starting generation information:")
+        #print(f"Best Score: {first_generation.best_score}")
+        #print(f"Average Score: {first_generation.avg_score}")
+        #print(f"Worst Score: {first_generation.worst_score}")
 
         self.current_generation = first_generation
 
@@ -70,16 +71,19 @@ class Genetic_Developer:
         probabilities = softmax(fitness_scores)
 
         next_generation = []
+        schedules_created = 0
 
         for i in range(125):
             parent_a = np.random.choice(generation.population, p=probabilities)
             parent_b = np.random.choice(generation.population, p=probabilities)
             
             child = self.crossover(parent_a, parent_b)
+            schedules_created += 1
             
             next_generation.append(child)
         
         self.mutate(next_generation)
+        print(f"Total new schedules created: {schedules_created}")
 
         # We mutate BEFORE we append the 125 parents back with their 125 children.
         final_generation = Generation(population=(generation.population + next_generation))
@@ -89,21 +93,21 @@ class Genetic_Developer:
     #So, this is just the actual step of crossover. Take half of one schedule, marry it to half of the other schedule, and then return the child. This works!
     def crossover(self, parent_a: Schedule, parent_b: Schedule):
         child_a = Schedule(schedule={
-            "10am": parent_a.schedule['10am'],
-            "11am": parent_a.schedule['11am'], 
-            "12pm": parent_a.schedule['12pm'], 
-            "1pm": parent_b.schedule['1pm'], 
-            "2pm": parent_b.schedule['2pm'], 
-            "3pm": parent_b.schedule['3pm']
+            "10am": copy.deepcopy(parent_a.schedule['10am']),
+            "11am": copy.deepcopy(parent_a.schedule['11am']), 
+            "12pm": copy.deepcopy(parent_a.schedule['12pm']), 
+            "1pm": copy.deepcopy(parent_b.schedule['1pm']), 
+            "2pm": copy.deepcopy(parent_b.schedule['2pm']), 
+            "3pm": copy.deepcopy(parent_b.schedule['3pm'])
         })
 
         child_b = Schedule(schedule={
-            "10am": parent_b.schedule['10am'],
-            "11am": parent_b.schedule['11am'], 
-            "12pm": parent_b.schedule['12pm'], 
-            "1pm": parent_a.schedule['1pm'], 
-            "2pm": parent_a.schedule['2pm'], 
-            "3pm": parent_a.schedule['3pm']
+            "10am": copy.deepcopy(parent_b.schedule['10am']),
+            "11am": copy.deepcopy(parent_b.schedule['11am']), 
+            "12pm": copy.deepcopy(parent_b.schedule['12pm']), 
+            "1pm": copy.deepcopy(parent_a.schedule['1pm']), 
+            "2pm": copy.deepcopy(parent_a.schedule['2pm']), 
+            "3pm": copy.deepcopy(parent_a.schedule['3pm'])
         })
 
         #Now the battle. Whoever's luckier gets to exist and be the promised child. Would allow us to later on return both children, if we want to.
@@ -130,12 +134,14 @@ class Genetic_Developer:
 
     def begin(self):
         if self.ready:
+            print("-----------------------------------")
             print("Beginning evolution!")
 
-            self.run_generation(self.current_generation, 1)
+            self.run_generation(self.current_generation, 1, 0)
 
     def run_generation(self, generation: Generation, generation_number:int, last_avg: float):
-
+        last_average = last_avg
+        print("----------------------------------")
         #pass our current generation to our evaluator
         self.evaluate(generation)
 
@@ -145,23 +151,28 @@ class Genetic_Developer:
         print(f"Average Fitness Score: {generation.avg_score}")
         print(f"Worst Fitness Score: {generation.worst_score}")
 
-        #BASE CASE! Check if our generation number is equal to or greater than our limit. If so, call it quits. 
+        self.scores_over_time.append([generation.best_score, generation.avg_score, generation.worst_score])
+
+        if last_average > 0:
+            improvement_rate = ((generation.avg_score - last_average) / last_average * 100)
+            print(f"Improvement Rate: {improvement_rate}%")
+
+        #BASE CASE! Check if our generation number is equal to or greater than our limit. If so, call it quits.
 
         if generation_number >= 100:
             print(f"{generation_number}: Current generation greater than 100! Will check improvement rate.")
 
-            improvement_rate = (generation.avg_score / last_avg * 100)
+            improvement_rate = ((generation.avg_score - last_avg) / last_avg * 100)
             print(f"{generation_number}: Improvement Rate - {improvement_rate}%")
 
             if improvement_rate < self.improvement_threshold:
                 print(f"{generation_number}: Improvement rate is below improvement threshold, {self.improvement_threshold}! Genetic evolution is finished. Terminating.")
 
                 self.finish(generation, generation_number)
+                return
 
             else:
                 print(f"{generation_number}: Improvement rate sufficient for another generation. Continuing.")
-
-                last_average = generation.avg_score
 
         #CULL THE WEAK. Basically, we entirely delete the later half of the generation, who have the worst half of fitness scores.
         print(f"{generation_number}: Thanos-snapping worst half of generation...")
@@ -171,34 +182,15 @@ class Genetic_Developer:
         print(f"{generation_number}: Beginning reproduction process...")
         new_generation = self.reproduce(generation)
 
-        print(f"{generation_number}: New generation created!")
+        print(f"{generation_number}: New generation created! Population: {len(new_generation.population)}")
 
         input("Ready to continue?")
-        self.run_generation(new_generation, (generation_number + 1), last_average)
+        self.run_generation(new_generation, (generation_number + 1), generation.avg_score)
     
     def finish(self, generation: Generation, gen_number:int):
+        print("--------------------------------------------")
         print(f"Finished at generation {gen_number}!")
 
         best = generation.get_best()
         print("Best schedule:")
         best.print_data()
-
-if __name__ == "__main__":
-    print("Creating two random schedules!")
-
-    schedule_a = Functions.create_random_Schedule()
-    schedule_b = Functions.create_random_Schedule()
-
-    head_honcho = Genetic_Developer()
-
-    print("Here are the parents:")
-    print("Schedule A:")
-    schedule_a.print_data()
-    print("Schedule B:")
-    schedule_b.print_data()
-
-    print("now kiss")
-
-    child = head_honcho.crossover(schedule_a, schedule_b)
-
-    child.print_data()
