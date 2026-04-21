@@ -4,6 +4,7 @@ from Generation import Generation
 from Schedule import Schedule
 import Functions
 import numpy as np
+import random
 from scipy.special import softmax
 
 class Genetic_Developer:
@@ -17,10 +18,15 @@ class Genetic_Developer:
 
         #We're also gonna need a mutation rate
         self.mutation_rate = mutation_rate
+
+        self.setup()
     
+    def setup(self):
+        print("Genetic Developer initialized!")
+        print("Populating ")
 
     #The head honcho of evaluation! Based on our fitness function code, this will run it on every single schedule in the generation, giving them each their individual fitness scores, and then it'll call the function to calculate and assign the highest and/or worst fitness scores out of the generation. 
-    def evaluate(self, population):
+    def evaluate(self, generation: Generation):
         pass
 
     #Combines both the selection and reproduction steps of the genetic algorithm. Converts fitness scores to probability, then runs the wheel to select the parents that get to reproduce, then...reproduces them!
@@ -42,10 +48,10 @@ class Genetic_Developer:
             
             next_generation.append(child)
         
-        next_generation = self.mutate(next_generation)
+        self.mutate(next_generation)
 
-        # Now combine our 125 survivors with our 125 new children
-        final_generation = Generation(generation.population + next_generation)
+        # We mutate BEFORE we append the 125 parents back with their 125 children.
+        final_generation = Generation(population=(generation.population + next_generation))
 
         return final_generation
 
@@ -73,11 +79,22 @@ class Genetic_Developer:
         return child_a if np.random.rand() < 0.5 else child_b
 
 
-    #Given our particular mutation rate, we take each schedule in the population and roll our chance to mutate. If mutate is true, take that particular schedule and...mutate it? TBA, TODO: will vary based on the implementation of how a schedule works 
-    def mutate(self, generation: Generation):
+    #Given our particular mutation rate, we take each schedule in the population and roll our chance to mutate. If mutate is true, take that particular schedule and call a function to regenerate that timeslot!
+    def mutate(self, population):
 
+        total_mutated = 0
 
-        pass
+        for schedule in population:
+            if np.random.rand() < self.mutation_rate:
+                total_mutated += 1
+                
+                random_timeslot = random.choice(list(schedule.schedule.keys()))
+                #Now, this is where...TODO: call the really cool function to randomly redo that timeslot! For example...
+                #Functions.regenerate_timeslot(schedule, random_timeslot)
+
+                pass
+
+        print(f"Total mutated: {total_mutated}")
 
 
     def run_generation(self, pop, mutation_rate, generation_number):
