@@ -108,10 +108,10 @@ class Genetic_Developer:
                 total_mutated += 1
                 
                 random_timeslot = random.choice(list(schedule.schedule.keys()))
-                #Now, this is where...TODO: call the really cool function to randomly redo that timeslot! For example...
-                #Functions.regenerate_timeslot(schedule, random_timeslot)
-
-                pass
+                
+                #calls the really cool function to randomly redo that timeslot
+                schedule.mutate_timeslot(random_timeslot)
+                
 
         print(f"Total mutated: {total_mutated}")
 
