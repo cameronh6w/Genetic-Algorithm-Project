@@ -4,6 +4,7 @@
 import Schedule
 import Functions
 
+#make it so that we can create a generation by just passing it a population list
 class Generation:
     def __init__(self, gen_size: int):
         
