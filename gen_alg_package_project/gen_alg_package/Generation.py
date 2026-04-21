@@ -24,16 +24,19 @@ class Generation:
                 self.population.append(Functions.create_random_Schedule()) 
     
     def cull_least_half(self):
-        #sort the population by fitness score
-        self.population.sort(key=lambda x: x.score)
+        #sort the population by fitness score (highest first)
+        self.population.sort(key=lambda x: x.score, reverse=True)
 
-        #remove the bottom half
+        #remove the bottom half (the later half)
         self.population = self.population[:len(self.population)//2]
 
         print(f"The weak have been culled. Remaining population: {len(self.population)}")
     
     def get_best(self) -> Schedule:
-        sorted = self.population.sort(key=lambda x: x.score)
-
-        return sorted[0]
+        # Return the schedule with the maximum fitness score
+        return max(self.population, key=lambda x: x.score)
+    
+    def get_worst(self) -> Schedule:
+        # Return the schedule with the minimum fitness score
+        return min(self.population, key=lambda x: x.score)
             

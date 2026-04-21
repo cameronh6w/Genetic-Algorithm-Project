@@ -46,7 +46,19 @@ class Genetic_Developer:
 
     #The head honcho of evaluation! Based on our fitness function code, this will run it on every single schedule in the generation, giving them each their individual fitness scores, and then it'll call the function to calculate and assign the highest and/or worst fitness scores out of the generation. 
     def evaluate(self, generation: Generation):
-        pass
+
+        #TODO: Update this with what the ACTUAL evaluation will be. Right now, this just does some random numbers. NOTE: DO NOT KEEP THIS!
+        total_score = 0.0
+
+        for schedule in generation.population:
+            # Assigning a random mock score between 0 and 10
+            schedule.score = random.uniform(0.0, 10.0)
+            total_score += schedule.score
+        
+        # Calculate generation stats
+        generation.best_score = generation.get_best().score
+        generation.worst_score = generation.get_worst().score
+        generation.avg_score = total_score / len(generation.population)
 
     #Combines both the selection and reproduction steps of the genetic algorithm. Converts fitness scores to probability, then runs the wheel to select the parents that get to reproduce, then...reproduces them!
     def reproduce(self, generation: Generation):
