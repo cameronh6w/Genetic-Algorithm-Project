@@ -43,6 +43,8 @@ class Schedule:
                          end=" ")
             print()
 
+    #PRE: key must be one of the keys of the schedule dictionary 
+    #POST: Returns nothing, but the scedule dictionary has all the activities from the selected time slot randomly reassign facilitator and room
     def mutate_timeslot(self, key):
         rooms = Functions.get_all_rooms()
         facilitators = Functions.get_all_facilitators()

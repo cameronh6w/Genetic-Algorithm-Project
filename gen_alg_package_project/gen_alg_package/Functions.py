@@ -102,8 +102,6 @@ def create_dictionary(activities :  Activity):
     activites_at_2 =[]
     activites_at_3 =[]
     for a in activities:
-        
-        
         if a.get_assigned_time()  == 10:
             activites_at_10.append(a)
         if a.get_assigned_time()  == 11:
@@ -137,8 +135,6 @@ def  create_random_Schedule():
     activites = get_all_activities()
     times = [10,11,12,1,2,3]
     
-    #for testing    
-    #print("\nActivity Data: ")
     
     #assign facilitator, room, and time to each activity 
     for a in activites:
@@ -152,15 +148,8 @@ def  create_random_Schedule():
         a.assign_R(rooms[r])
         a.assign_T(times[t])
 
-        #for testing
-        #a.print_assigned_data()
-
     #create schedule from activities 
     schedule_dict = create_dictionary(activites)
     schedule = Schedule.Schedule(0,schedule_dict)
-    
-    #for testing
-    #print("\nSchedule Data: ")
-    #schedule.print_data()
 
     return schedule
