@@ -31,4 +31,9 @@ class Generation:
         self.population = self.population[:len(self.population)//2]
 
         print(f"The weak have been culled. Remaining population: {len(self.population)}")
+    
+    def get_best(self) -> Schedule:
+        sorted = self.population.sort(key=lambda x: x.score)
+
+        return sorted[0]
             

@@ -5,6 +5,7 @@ from Schedule import Schedule
 import Functions
 import numpy as np
 import random
+import sys
 from scipy.special import softmax
 
 class Genetic_Developer:
@@ -19,11 +20,29 @@ class Genetic_Developer:
         #We're also gonna need a mutation rate
         self.mutation_rate = mutation_rate
 
+        self.current_generation: Generation = None
+
         self.setup()
     
     def setup(self):
         print("Genetic Developer initialized!")
-        print("Populating ")
+        print("Populating first generation...")
+
+        first_generation = Generation(gen_size=250)
+
+        for i in range(0, first_generation.gen_size):
+            first_generation.population.append(Functions.create_random_Schedule())
+        
+        print(f"Generation 1 size: {len(first_generation.population)}")
+        print("Starting generation information:")
+        print(f"Best Score: {first_generation.best_score}")
+        print(f"Average Score: {first_generation.avg_score}")
+        print(f"Worst Score: {first_generation.worst_score}")
+
+        self.current_generation = first_generation
+
+        print("Ready to begin evolution.")
+        self.ready = True
 
     #The head honcho of evaluation! Based on our fitness function code, this will run it on every single schedule in the generation, giving them each their individual fitness scores, and then it'll call the function to calculate and assign the highest and/or worst fitness scores out of the generation. 
     def evaluate(self, generation: Generation):
@@ -97,22 +116,60 @@ class Genetic_Developer:
         print(f"Total mutated: {total_mutated}")
 
 
-    def run_generation(self, pop, mutation_rate, generation_number):
-        #BASE CASE! Check if our generation number is equal to or greater than our limit. If so, call an output function
+    def begin(self):
+        if self.ready:
+            print("Beginning evolution!")
 
-        ##if not, continue
+            self.run_generation(self.current_generation, 1)
+
+    def run_generation(self, generation: Generation, generation_number:int, last_avg: float):
 
         #pass our current generation to our evaluator
-        self.evaluate(pop)
+        self.evaluate(generation)
 
         #print generation information, like stats and the number of what generation we're on
+        print(f"{generation_number}: Generation information:")
+        print(f"Best Fitness Score: {generation.best_score}")
+        print(f"Average Fitness Score: {generation.avg_score}")
+        print(f"Worst Fitness Score: {generation.worst_score}")
+
+        #BASE CASE! Check if our generation number is equal to or greater than our limit. If so, call it quits. 
+
+        if generation_number >= 100:
+            print(f"{generation_number}: Current generation greater than 100! Will check improvement rate.")
+
+            improvement_rate = (generation.avg_score / last_avg * 100)
+            print(f"{generation_number}: Improvement Rate - {improvement_rate}%")
+
+            if improvement_rate < self.improvement_threshold:
+                print(f"{generation_number}: Improvement rate is below improvement threshold, {self.improvement_threshold}! Genetic evolution is finished. Terminating.")
+
+                self.finish(generation, generation_number)
+
+            else:
+                print(f"{generation_number}: Improvement rate sufficient for another generation. Continuing.")
+
+                last_average = generation.avg_score
 
         #CULL THE WEAK. Basically, we entirely delete the later half of the generation, who have the worst half of fitness scores.
+        print(f"{generation_number}: Thanos-snapping worst half of generation...")
+        generation.cull_least_half()
 
         #Then, pass our remaining half to the reproduction function to fill out the generation with a population stronger than that which came before
-        new_generation = self.reproduce(pop)
+        print(f"{generation_number}: Beginning reproduction process...")
+        new_generation = self.reproduce(generation)
 
-        self.run_generation(new_generation, mutation_rate, (generation_number + 1))
+        print(f"{generation_number}: New generation created!")
+
+        input("Ready to continue?")
+        self.run_generation(new_generation, (generation_number + 1), last_average)
+    
+    def finish(self, generation: Generation, gen_number:int):
+        print(f"Finished at generation {gen_number}!")
+
+        best = generation.get_best()
+        print("Best schedule:")
+        best.print_data()
 
 if __name__ == "__main__":
     print("Creating two random schedules!")
