@@ -8,9 +8,9 @@ import Functions
 class Generation:
     def __init__(self, population: list[Schedule] = None, gen_size: int = 250):
         
-        self.best_score = -1.0
-        self.worst_score = -1.0
-        self.avg_score = -1.0
+        self.best_score = 0.0
+        self.worst_score = 0.0
+        self.avg_score = 0.0
 
         self.gen_size = gen_size
 

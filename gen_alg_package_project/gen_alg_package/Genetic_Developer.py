@@ -8,6 +8,10 @@ import random
 import sys
 from scipy.special import softmax
 import copy
+import plotext as plt
+import csv
+import os
+import datetime
 
 class Genetic_Developer:
     
@@ -20,8 +24,12 @@ class Genetic_Developer:
 
         #We're also gonna need a mutation rate
         self.mutation_rate = mutation_rate
+        self.initial_mutation_rate = mutation_rate
+        self.mutation_decay_interval = 5  # halve mutation rate every N generations
 
         self.current_generation: Generation = None
+        self.scores_over_time: list[float] = []
+        self.best_schedule_log: list[str] = []
 
         self.setup()
     
@@ -35,10 +43,6 @@ class Genetic_Developer:
             first_generation.population.append(Functions.create_random_Schedule())
         
         print(f"Generation 1 size: {len(first_generation.population)}")
-        #print("Starting generation information:")
-        #print(f"Best Score: {first_generation.best_score}")
-        #print(f"Average Score: {first_generation.avg_score}")
-        #print(f"Worst Score: {first_generation.worst_score}")
 
         self.current_generation = first_generation
 
@@ -54,6 +58,8 @@ class Genetic_Developer:
         for schedule in generation.population:
             # Assigning a random mock score between 0 and 10
             schedule.score = random.uniform(0.0, 10.0)
+            #NOTE: REPLACE THIS! ^^^^^^^^^^^^^
+            
             total_score += schedule.score
         
         # Calculate generation stats
@@ -147,15 +153,37 @@ class Genetic_Developer:
 
         #print generation information, like stats and the number of what generation we're on
         print(f"{generation_number}: Generation information:")
-        print(f"Best Fitness Score: {generation.best_score}")
-        print(f"Average Fitness Score: {generation.avg_score}")
-        print(f"Worst Fitness Score: {generation.worst_score}")
+        print(f"Best Fitness Score:    {generation.best_score:.4f}")
+        print(f"Average Fitness Score: {generation.avg_score:.4f}")
+        print(f"Worst Fitness Score:   {generation.worst_score:.4f}")
+        print(f"Mutation Rate:         {self.mutation_rate:.5f}")
 
-        self.scores_over_time.append([generation.best_score, generation.avg_score, generation.worst_score])
+        self.scores_over_time.append([generation.best_score, generation.avg_score, generation.worst_score, self.mutation_rate])
+
+        # Capture formatted best schedule string for the log
+        best = generation.get_best()
+        log_lines = [f"[ Generation {generation_number} | Score: {best.score:.4f} ]"]
+        for slot, activities in best.schedule.items():
+            if not activities:
+                log_lines.append(f"  {slot}: (empty)")
+            else:
+                for i, a in enumerate(activities):
+                    slot_label = slot if i == 0 else " " * len(slot)
+                    log_lines.append(
+                        f"  {slot_label}  {a.get_name():<10} "
+                        f"Room: {a.get_assigned_room().get_name():<14} "
+                        f"Fac: {a.get_assigned_facilitator().get_name()}"
+                    )
+        self.best_schedule_log.append("\n".join(log_lines))
+
+        # Adaptive mutation decay: halve every N generations, never below 0.001
+        if generation_number % self.mutation_decay_interval == 0:
+            self.mutation_rate = max(0.001, self.mutation_rate / 2)
+            print(f"  --> Mutation rate decayed to {self.mutation_rate:.5f}")
 
         if last_average > 0:
             improvement_rate = ((generation.avg_score - last_average) / last_average * 100)
-            print(f"Improvement Rate: {improvement_rate}%")
+            print(f"Improvement Rate: {improvement_rate:.4f}%")
 
         #BASE CASE! Check if our generation number is equal to or greater than our limit. If so, call it quits.
 
@@ -184,13 +212,63 @@ class Genetic_Developer:
 
         print(f"{generation_number}: New generation created! Population: {len(new_generation.population)}")
 
-        input("Ready to continue?")
+        #input("Ready to continue?")
         self.run_generation(new_generation, (generation_number + 1), generation.avg_score)
     
+    def write_outputs(self, gen_number: int):
+        results_dir = os.path.join(os.path.dirname(__file__), "results")
+        os.makedirs(results_dir, exist_ok=True)
+
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+
+        # --- fitness_history.csv ---
+        csv_path = os.path.join(results_dir, f"fitness_history_{timestamp}.csv")
+        with open(csv_path, "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["generation", "best_score", "avg_score", "worst_score", "mutation_rate"])
+            for i, row in enumerate(self.scores_over_time, start=1):
+                writer.writerow([i, f"{row[0]:.6f}", f"{row[1]:.6f}", f"{row[2]:.6f}", f"{row[3]:.6f}"])
+        print(f"Fitness history written to: {csv_path}")
+
+        # --- best_schedule_log.txt ---
+        log_path = os.path.join(results_dir, f"best_schedule_log_{timestamp}.txt")
+        with open(log_path, "w") as f:
+            f.write(f"Genetic Algorithm Run — {timestamp}\n")
+            f.write(f"Finished at generation {gen_number}\n")
+            f.write(f"Initial mutation rate: {self.initial_mutation_rate} | Final mutation rate: {self.mutation_rate:.5f}\n")
+            f.write("=" * 60 + "\n\n")
+            for entry in self.best_schedule_log:
+                f.write(entry + "\n\n")
+        print(f"Best schedule log written to: {log_path}")
+
+    def plot_scores(self):
+        data = self.scores_over_time
+
+        if not data:
+            print("No score data to plot.")
+            return
+
+        best_scores  = [row[0] for row in data]
+        avg_scores   = [row[1] for row in data]
+        worst_scores = [row[2] for row in data]
+        generations  = list(range(1, len(data) + 1))
+
+        plt.clf()
+        plt.plot(generations, best_scores,  label="Best",    color="green")
+        plt.plot(generations, avg_scores,   label="Average", color="yellow")
+        plt.plot(generations, worst_scores, label="Worst",   color="red")
+        plt.title("Fitness Scores Over Generations")
+        plt.xlabel("Generation")
+        plt.ylabel("Fitness Score")
+        plt.show()
+
     def finish(self, generation: Generation, gen_number:int):
         print("--------------------------------------------")
         print(f"Finished at generation {gen_number}!")
 
         best = generation.get_best()
         print("Best schedule:")
-        best.print_data()
+        best.print_formatted()
+
+        self.write_outputs(gen_number)
+        self.plot_scores()
