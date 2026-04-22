@@ -13,6 +13,7 @@ import Functions
 class Schedule:
     score : float
     schedule : dict
+    activities : list
 
     def __init__(self, score: float = -1.0, schedule: dict = {
         "10am": [], 
@@ -24,7 +25,8 @@ class Schedule:
     }):
         self.score  = score
         self.schedule = schedule
-
+        self.set_activities()
+    
     #getters
     def get_score(self): 
         return self.score
@@ -71,6 +73,17 @@ class Schedule:
                           f"{room_name:<{col_room}} {fac_name:<{col_fac}} {a.get_enrollment():<{col_enrol}}")
 
         print(divider)
+
+    def set_activities(self):
+        self.activities = []
+        for key, value in self.schedule.items():
+            for a in value:
+                self.activities.append(a)
+
+
+
+        
+
 
 
     #PRE: key must be one of the keys of the schedule dictionary 

@@ -152,4 +152,5 @@ def  create_random_Schedule():
     schedule_dict = create_dictionary(activites)
     schedule = Schedule.Schedule(0,schedule_dict)
 
+
     return schedule

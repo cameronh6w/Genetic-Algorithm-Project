@@ -18,7 +18,7 @@ class Activity:
     def __init__(self, name: str, enrollment: int, preferred: list, other: list,
                  need_lab: bool, need_projector: bool):
         self.name = name
-        self.enrollment = enrollment
+        self.enrollment = int(enrollment)
         self.preferred = preferred
         self.other = other
         self.need_lab = need_lab

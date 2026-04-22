@@ -103,7 +103,7 @@ class FitnessScorer:
         for activity in schedule.activities:
             needsMet = 0;
             if activity.need_lab:
-                if activity.assigned_room.is_lab:
+                if activity.assigned_room.has_lab:
                     needsMet += 1
             else:
                 needsMet += 1

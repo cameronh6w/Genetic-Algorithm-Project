@@ -6,7 +6,7 @@ class Room:
 
     def __init__(self,  name : str, capacity : int, has_lab : bool, has_projector : bool):
         self.name = name
-        self.capacity = capacity
+        self.capacity = int(capacity)
         self.has_lab = has_lab
         self.has_projector = has_projector
 
