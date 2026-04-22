@@ -58,10 +58,10 @@ class Genetic_Developer:
 
         for schedule in generation.population:
             # Assigning a random mock score between 0 and 10
-            schedule.score = random.uniform(0.0, 10.0)
+            # schedule.score = random.uniform(0.0, 10.0)
             #NOTE: TODO: REPLACE THIS! ^^^^^^^^^^^^^
             #with something like this. Just uncomment this line once this function works.
-            #schedule.score = FitnessScorer.score(schedule)
+            schedule.score = FitnessScorer.score(schedule)
             
             total_score += schedule.score
         
