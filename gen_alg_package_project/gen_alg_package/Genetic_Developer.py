@@ -17,7 +17,7 @@ import datetime
 class Genetic_Developer:
     
     #come back to this based on what the central loop function ends up requiring
-    def __init__(self, target_generations=100, improvement_threshold=0.01, mutation_rate=0.05):
+    def __init__(self, target_generations=100, improvement_threshold=1.0, mutation_rate=0.05):
 
         #We're gonna need a target for how many minimum generations we want to create, and the improvement threshold for how much each generation has to improve from the past generation's (best? average?) fitness score before we just stop
         self.target_generations = target_generations
@@ -26,7 +26,8 @@ class Genetic_Developer:
         #We're also gonna need a mutation rate
         self.mutation_rate = mutation_rate
         self.initial_mutation_rate = mutation_rate
-        self.mutation_decay_interval = 5  # halve mutation rate every N generations
+        self.stagnation_window = 5     # generations without improvement before decaying
+        self.stagnation_count = 0      # how many generations in a row without improvement
 
         self.current_generation: Generation = None
         self.scores_over_time: list[float] = []
@@ -79,20 +80,13 @@ class Genetic_Developer:
         #Get our softmax probability distribution
         probabilities = softmax(fitness_scores)
 
-        next_generation = []
-        schedules_created = 0
+        # Vectorize both parent selections in one np.random.choice call each
+        parents_a = np.random.choice(generation.population, size=125, p=probabilities)
+        parents_b = np.random.choice(generation.population, size=125, p=probabilities)
 
-        for i in range(125):
-            parent_a = np.random.choice(generation.population, p=probabilities)
-            parent_b = np.random.choice(generation.population, p=probabilities)
-            
-            child = self.crossover(parent_a, parent_b)
-            schedules_created += 1
-            
-            next_generation.append(child)
-        
+        next_generation = [self.crossover(a, b) for a, b in zip(parents_a, parents_b)]
+
         self.mutate(next_generation)
-        print(f"Total new schedules created: {schedules_created}")
 
         # We mutate BEFORE we append the 125 parents back with their 125 children.
         final_generation = Generation(population=(generation.population + next_generation))
@@ -105,38 +99,35 @@ class Genetic_Developer:
             "10am": copy.deepcopy(parent_a.schedule['10am']),
             "11am": copy.deepcopy(parent_a.schedule['11am']), 
             "12pm": copy.deepcopy(parent_a.schedule['12pm']), 
-            "1pm": copy.deepcopy(parent_b.schedule['1pm']), 
-            "2pm": copy.deepcopy(parent_b.schedule['2pm']), 
-            "3pm": copy.deepcopy(parent_b.schedule['3pm'])
+            "1pm":  copy.deepcopy(parent_b.schedule['1pm']), 
+            "2pm":  copy.deepcopy(parent_b.schedule['2pm']), 
+            "3pm":  copy.deepcopy(parent_b.schedule['3pm'])
         })
 
         child_b = Schedule(schedule={
             "10am": copy.deepcopy(parent_b.schedule['10am']),
             "11am": copy.deepcopy(parent_b.schedule['11am']), 
             "12pm": copy.deepcopy(parent_b.schedule['12pm']), 
-            "1pm": copy.deepcopy(parent_a.schedule['1pm']), 
-            "2pm": copy.deepcopy(parent_a.schedule['2pm']), 
-            "3pm": copy.deepcopy(parent_a.schedule['3pm'])
+            "1pm":  copy.deepcopy(parent_a.schedule['1pm']), 
+            "2pm":  copy.deepcopy(parent_a.schedule['2pm']), 
+            "3pm":  copy.deepcopy(parent_a.schedule['3pm'])
         })
 
         #Now the battle. Whoever's luckier gets to exist and be the promised child. Would allow us to later on return both children, if we want to.
         return child_a if np.random.rand() < 0.5 else child_b
 
 
+    # Cache the timeslot keys since they never change
+    _timeslot_keys = ["10am", "11am", "12pm", "1pm", "2pm", "3pm"]
+
     #Given our particular mutation rate, we take each schedule in the population and roll our chance to mutate. If mutate is true, take that particular schedule and call a function to regenerate that timeslot!
     def mutate(self, population):
-
         total_mutated = 0
 
         for schedule in population:
-            if np.random.rand() < self.mutation_rate:
+            if random.random() < self.mutation_rate:
                 total_mutated += 1
-                
-                random_timeslot = random.choice(list(schedule.schedule.keys()))
-                
-                #calls the really cool function to randomly redo that timeslot
-                schedule.mutate_timeslot(random_timeslot)
-                
+                schedule.mutate_timeslot(random.choice(self._timeslot_keys))
 
         print(f"Total mutated: {total_mutated}")
 
@@ -179,14 +170,20 @@ class Genetic_Developer:
                     )
         self.best_schedule_log.append("\n".join(log_lines))
 
-        # Adaptive mutation decay: halve every N generations, never below 0.001
-        if generation_number % self.mutation_decay_interval == 0:
-            self.mutation_rate = max(0.001, self.mutation_rate / 2)
-            print(f"  --> Mutation rate decayed to {self.mutation_rate:.5f}")
-
-        if last_average > 0:
-            improvement_rate = ((generation.avg_score - last_average) / last_average * 100)
+        # Stagnation-based mutation decay: only decay when avg score hasn't improved
+        if generation_number > 1:
+            improvement_rate = ((generation.avg_score - last_average) / abs(last_average) * 100) if last_average != 0 else 0
             print(f"Improvement Rate: {improvement_rate:.4f}%")
+
+            if improvement_rate < self.improvement_threshold:
+                self.stagnation_count += 1
+            else:
+                self.stagnation_count = 0  # reset on any real improvement
+
+            if self.stagnation_count >= self.stagnation_window:
+                self.mutation_rate = max(0.001, self.mutation_rate / 2)
+                self.stagnation_count = 0
+                print(f"  --> {self.stagnation_window} stagnant generations. Mutation rate decayed to {self.mutation_rate:.5f}")
 
         #BASE CASE! Check if our generation number is equal to or greater than our limit. If so, call it quits.
 

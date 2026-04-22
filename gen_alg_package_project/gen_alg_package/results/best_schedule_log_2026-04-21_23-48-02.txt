@@ -1,0 +1,1209 @@
+Genetic Algorithm Run — 2026-04-21_23-48-02
+Finished at generation 100
+Initial mutation rate: 0.05 | Final mutation rate: 0.05000
+============================================================
+
+[ Generation 1 | Score: 2.5000 ]
+  10am  SLA303     Room: Beach 301      Fac: Uther
+  11am  SLA201     Room: Loft 206       Fac: Tyler
+  12pm  SLA191B    Room: Frank 119      Fac: Uther
+        SLA304     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 206       Fac: Zeldin
+       SLA191A    Room: Frank 119      Fac: Singer
+       SLA394     Room: James 325      Fac: Numen
+       SLA449     Room: Slater 003     Fac: Richards
+  2pm: (empty)
+  3pm  SLA101B    Room: Roman 201      Fac: Richards
+       SLA291     Room: Frank 119      Fac: Numen
+       SLA451     Room: Frank 119      Fac: Tyler
+
+[ Generation 2 | Score: 4.2500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 310       Fac: Tyler
+  1pm  SLA101A    Room: Loft 206       Fac: Zeldin
+       SLA191A    Room: Frank 119      Fac: Singer
+       SLA394     Room: James 325      Fac: Numen
+       SLA449     Room: Slater 003     Fac: Richards
+  2pm: (empty)
+  3pm  SLA101B    Room: Roman 201      Fac: Richards
+       SLA291     Room: Frank 119      Fac: Numen
+       SLA451     Room: Frank 119      Fac: Tyler
+
+[ Generation 3 | Score: 4.4500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 310       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Beach 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Tyler
+       SLA449     Room: Slater 003     Fac: Tyler
+
+[ Generation 4 | Score: 4.4500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 310       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Beach 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Tyler
+       SLA449     Room: Slater 003     Fac: Tyler
+
+[ Generation 5 | Score: 5.4500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 310       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 6 | Score: 5.4500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 310       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 7 | Score: 5.4500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 310       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 8 | Score: 5.8500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: James 325      Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 9 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 10 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 11 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 12 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 13 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 14 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 15 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 16 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 17 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 18 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 19 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 20 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 21 | Score: 6.7500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Lock
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 22 | Score: 6.9500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 23 | Score: 6.9500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 24 | Score: 6.9500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Glen
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 25 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 26 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 27 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 28 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 29 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 30 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 31 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 32 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 33 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 34 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 35 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 36 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 37 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 38 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 39 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 40 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 41 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 42 | Score: 7.1500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Roman 201      Fac: Zeldin
+       SLA291     Room: Loft 206       Fac: Zeldin
+       SLA449     Room: Roman 201      Fac: Numen
+
+[ Generation 43 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 44 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 45 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 46 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 47 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 48 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 49 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 50 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 51 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 52 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 53 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 54 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 55 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 56 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 57 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 58 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 59 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 60 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 61 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 62 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 63 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 64 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 65 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 66 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 67 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 68 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 69 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 70 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 71 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 72 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 73 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 74 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 75 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 76 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 77 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 78 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 79 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 80 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 81 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 82 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 83 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 84 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 85 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 86 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 87 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 88 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 89 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 90 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 91 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 92 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 93 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 94 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 95 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 96 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 97 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 98 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 99 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+
+[ Generation 100 | Score: 8.3500 ]
+  10am  SLA303     Room: Beach 301      Fac: Singer
+        SLA449     Room: Slater 003     Fac: Uther
+  11am  SLA191A    Room: Loft 310       Fac: Tyler
+  12pm  SLA291     Room: Loft 206       Fac: Tyler
+  1pm  SLA101B    Room: Roman 201      Fac: Uther
+       SLA191B    Room: Loft 310       Fac: Singer
+  2pm: (empty)
+  3pm  SLA101A    Room: Loft 310       Fac: Tyler
+       SLA291     Room: Loft 206       Fac: Uther
+       SLA449     Room: Slater 003     Fac: Zeldin
+

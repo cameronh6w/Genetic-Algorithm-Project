@@ -1,0 +1,1838 @@
+Genetic Algorithm Run — 2026-04-21_23-50-46
+Finished at generation 102
+Initial mutation rate: 0.05 | Final mutation rate: 0.05000
+============================================================
+
+[ Generation 1 | Score: 2.0000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm: (empty)
+  2pm  SLA191B    Room: James 325      Fac: Glen
+       SLA291     Room: Beach 201      Fac: Singer
+       SLA304     Room: Slater 003     Fac: Shaw
+  3pm: (empty)
+
+[ Generation 2 | Score: 6.1000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Richards
+       SLA101B    Room: Frank 119      Fac: Glen
+       SLA191B    Room: Loft 310       Fac: Numen
+       SLA394     Room: Slater 003     Fac: Tyler
+  2pm  SLA291     Room: Slater 003     Fac: Richards
+       SLA451     Room: Frank 119      Fac: Tyler
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 3 | Score: 6.2000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Numen
+       SLA101B    Room: Roman 201      Fac: Lock
+       SLA191B    Room: Beach 201      Fac: Banks
+       SLA394     Room: Beach 201      Fac: Numen
+  2pm  SLA291     Room: Slater 003     Fac: Richards
+       SLA451     Room: Frank 119      Fac: Tyler
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 4 | Score: 6.2000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Numen
+       SLA101B    Room: Roman 201      Fac: Lock
+       SLA191B    Room: Beach 201      Fac: Banks
+       SLA394     Room: Beach 201      Fac: Numen
+  2pm  SLA291     Room: Slater 003     Fac: Richards
+       SLA451     Room: Frank 119      Fac: Tyler
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 5 | Score: 6.7000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Numen
+       SLA101B    Room: Roman 201      Fac: Lock
+       SLA191B    Room: Beach 201      Fac: Banks
+       SLA394     Room: Beach 201      Fac: Numen
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 6 | Score: 6.7000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Numen
+       SLA101B    Room: Roman 201      Fac: Lock
+       SLA191B    Room: Beach 201      Fac: Banks
+       SLA394     Room: Beach 201      Fac: Numen
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 7 | Score: 6.7000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Numen
+       SLA101B    Room: Roman 201      Fac: Lock
+       SLA191B    Room: Beach 201      Fac: Banks
+       SLA394     Room: Beach 201      Fac: Numen
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 8 | Score: 6.7000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Numen
+       SLA101B    Room: Roman 201      Fac: Lock
+       SLA191B    Room: Beach 201      Fac: Banks
+       SLA394     Room: Beach 201      Fac: Numen
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 9 | Score: 6.7000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Numen
+       SLA101B    Room: Roman 201      Fac: Lock
+       SLA191B    Room: Beach 201      Fac: Banks
+       SLA394     Room: Beach 201      Fac: Numen
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 10 | Score: 7.3000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Numen
+       SLA101B    Room: Roman 201      Fac: Lock
+       SLA191B    Room: Beach 201      Fac: Banks
+       SLA394     Room: Beach 201      Fac: Numen
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 11 | Score: 7.3000 ]
+  10am  SLA449     Room: Roman 201      Fac: Singer
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 12 | Score: 7.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 13 | Score: 7.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 14 | Score: 7.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 15 | Score: 7.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 16 | Score: 7.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Beach 201      Fac: Numen
+        SLA191A    Room: Loft 310       Fac: Banks
+        SLA201     Room: Roman 216      Fac: Glen
+        SLA303     Room: Slater 003     Fac: Zeldin
+        SLA394     Room: James 325      Fac: Lock
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 17 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 18 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 19 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 20 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 21 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 22 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 23 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 24 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 25 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 26 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 27 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 28 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 29 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 30 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 31 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 32 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 33 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 34 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 35 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 36 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 37 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 38 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 39 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 40 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 41 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 42 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 43 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 44 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 45 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 46 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 47 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 48 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 49 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 50 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 51 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 52 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 53 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 54 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 55 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 56 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 57 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 58 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 59 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 60 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 61 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 62 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 63 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 64 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 65 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 66 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 67 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 68 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 69 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 70 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 71 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 72 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 73 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 74 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 75 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 76 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 77 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 78 | Score: 8.4000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Roman 216      Fac: Singer
+       SLA451     Room: Frank 119      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 79 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 80 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 81 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 82 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 83 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 84 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 85 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 86 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 87 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 88 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 89 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 90 | Score: 8.8000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Glen
+       SLA451     Room: Frank 119      Fac: Glen
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 91 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 92 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 93 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 94 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 95 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 96 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 97 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 98 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 99 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 100 | Score: 8.9000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 101 | Score: 9.2000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Numen
+       SLA451     Room: Frank 119      Fac: Lock
+  3pm  SLA191A    Room: Loft 310       Fac: Numen
+       SLA201     Room: Frank 119      Fac: Tyler
+
+[ Generation 102 | Score: 9.5000 ]
+  10am  SLA449     Room: Slater 003     Fac: Banks
+  11am  SLA101B    Room: Roman 201      Fac: Banks
+        SLA451     Room: Frank 119      Fac: Glen
+  12pm  SLA101A    Room: Roman 201      Fac: Zeldin
+        SLA191A    Room: Frank 119      Fac: Tyler
+        SLA201     Room: Roman 216      Fac: Banks
+        SLA303     Room: Beach 301      Fac: Shaw
+        SLA394     Room: Roman 201      Fac: Tyler
+  1pm  SLA101A    Room: Loft 310       Fac: Zeldin
+       SLA101B    Room: Loft 310       Fac: Numen
+       SLA191B    Room: Roman 201      Fac: Richards
+       SLA394     Room: Frank 119      Fac: Banks
+  2pm  SLA291     Room: Loft 206       Fac: Zeldin
+       SLA451     Room: James 325      Fac: Uther
+  3pm  SLA191A    Room: Loft 310       Fac: Uther
+       SLA201     Room: Roman 216      Fac: Lock
+
